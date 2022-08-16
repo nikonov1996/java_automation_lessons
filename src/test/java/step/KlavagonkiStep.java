@@ -4,8 +4,6 @@ import com.codeborne.selenide.SelenideElement;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import io.cucumber.java.eo.Se;
-import net.jodah.failsafe.internal.util.Assert;
 import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.Keys;
 
@@ -20,12 +18,12 @@ public class KlavagonkiStep {
     private final SelenideElement afterFocusWord = $x("//span[@id='afterfocus']");
     private final SelenideElement resultValue = $("div#players  div.rating .stats div:nth-child(2) span>span");
     private String getCurrentWord(){
-        return this.highlightWord.getText().replaceAll("c", "с").replaceAll("o","о");
+        return highlightWord.getText().replaceAll("c", "с").replaceAll("o","о");
     }
     @When("Start game")
     public void startGame() {
         closeButton.click();
-        if(startGameButton.isDisplayed()) startGameButton.click();;
+        if(startGameButton.isDisplayed()) startGameButton.click();
     }
 
     @And("Wait game starting")

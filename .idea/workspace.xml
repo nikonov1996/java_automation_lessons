@@ -5,14 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa9c209f-dfa1-4b13-ae96-a439c481e2a4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/step/AfterStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/step/BeforeStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/step/KlavagonkiStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/scenarios/klavagonki.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/appleinsider/Pages/MainPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/appleinsider/Pages/SearchResultPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/appleinsider/checkHeaderTextInHrefTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/core/SelenideBaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/core/SeleniumBasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/core/SeleniumBaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/core/TestListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/django_helpdesk_demo/Pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/django_helpdesk_demo/Pages/MainPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/django_helpdesk_demo/Pages/TicketPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/django_helpdesk_demo/Pages/TicketsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/django_helpdesk_demo/TicketCreateByNoAuthorizedUserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/django_helpdesk_demo/helpers/StringModifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/django_helpdesk_demo/helpers/TestValues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/readProperties/ConfigProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/allure.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/helpdesk.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/step/KlavagonkiStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step/KlavagonkiStep.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +36,37 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="java_automation_lessons" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="java_automation_lessons" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="java_automation_lessons" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -37,6 +81,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2DNLXcICeg4F2W2xV2rZzhbRzn5" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -47,38 +94,131 @@
   "keyToString": {
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_directory_selection": "/home/dev/GIT/java_automation_lessons/src/test/java/step",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "last_opened_file_path": "/home/dev/GIT/java_automation_lessons/src/test/java",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java" />
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="core" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="step" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="readProperties" />
+    </key>
   </component>
-  <component name="RunManager">
-    <configuration name="Scenario: Bot start game and enters words" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/scenarios/klavagonki.feature" />
-      <option name="GLUE" value="step" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+  <component name="RunManager" selected="Gradle.java_automation_lessons [allureServe]">
+    <configuration name="checkHeaderTextInHrefTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;appleinsider.checkHeaderTextInHrefTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="checkHeaderTextInHrefTest.checkArticleHref (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;appleinsider.checkHeaderTextInHrefTest.checkArticleHref&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="java_automation_lessons [allureServe]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="allureServe" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="checkHeaderTextInHrefTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_automation_lessons.test" />
-      <option name="NAME_FILTER" value="^Bot start game and enters words$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Bot start game and enters words$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Bot start game and enters words" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="PATTERN" value="appleinsider.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="appleinsider" />
+      <option name="MAIN_CLASS_NAME" value="appleinsider.checkHeaderTextInHrefTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="checkHeaderTextInHrefTest.checkArticleHref" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java_automation_lessons.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="appleinsider.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="appleinsider" />
+      <option name="MAIN_CLASS_NAME" value="appleinsider.checkHeaderTextInHrefTest" />
+      <option name="METHOD_NAME" value="checkArticleHref" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: Bot start game and enters words" />
+        <item itemvalue="Gradle.java_automation_lessons [allureServe]" />
+        <item itemvalue="JUnit.checkHeaderTextInHrefTest" />
+        <item itemvalue="JUnit.checkHeaderTextInHrefTest.checkArticleHref" />
+        <item itemvalue="Gradle.checkHeaderTextInHrefTest" />
+        <item itemvalue="Gradle.checkHeaderTextInHrefTest.checkArticleHref (1)" />
       </list>
     </recent_temporary>
   </component>
